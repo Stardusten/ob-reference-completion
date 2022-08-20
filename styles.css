@@ -6,3 +6,24 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+.suggestion-item {
+	display: inline-block;
+}
+
+.reference-suggestion-type-in {
+	font-size: 0.7em;
+	margin-right: 1.5em;
+	vertical-align: center;
+}
+
+.reference-suggestion-type-out {
+	font-size: 0.7em;
+	margin-right: 1.5em;
+	vertical-align: center;
+}
+
+.reference-suggestion-link-path {
+	font-size: 0.8em;
+	color: var(--text-muted);
+}
